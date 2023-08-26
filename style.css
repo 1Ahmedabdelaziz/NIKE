@@ -802,3 +802,191 @@ footer .footer_main .tag .search_bar button{
     color: white;
     cursor: pointer;
 }
+@media (min-width:950px)and(max-width:1150px){
+    section .logo h1,section ul,section .main .main_content h1 p,section .main .main_text,section .main .main_image ,section .main .button{
+        width:200px;
+    } 
+
+}
+
+@media (max-width:850px){
+    section .logo h1,section ul,section .main .main_content h1 p,section .main .main_text,section .main .main_image ,section .main .button{
+        width:250px;
+        flex-direction:column;
+    }
+    section .main .main_content .main_image img{
+        flex-direction:column;
+        /* bottom:0px */
+    }
+    section .main .main_content .main_image img{
+        width: 350px;
+        /* position:relative; */
+        left: -220px;
+        top:430px;
+        justify-content: center;
+        right: 0px;
+        /* overflow-y: -100px; */
+    } 
+    section .main .main_content .main_image img:hover{
+        width: 400px;
+        transition-duration: 0.7;
+        transform: scale(2s);
+    }
+    section .main .button {
+    position: absolute;
+    left: 30%;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: linear-gradient(to right,#00adb5 , #6c14d0);
+    top:650px;
+    }
+    section .main_content  p{
+        font-style: italic;
+        text-align: center;
+        font-size: 15px;
+        flex-direction:column;
+
+    }
+    section .social_icon {
+        /* width: 60px; */
+        top:80px;
+    }
+    section .logo h1{
+        font-size: 30px;
+        /* right:200px; */
+        padding-left:30px;
+        /* margin: 15px 10px 15px 30px ; */
+    }
+    section .logo h1:hover{
+        font-size: 35px;
+        color: #6c14d0;
+        transition-duration:0.7s;
+        /* transition-timing-function: ease; */
+        /* animation-duration: 2s; */
+
+    }
+    .products{
+        width: 100vh;
+    }
+    .products .box ,.products .small_card ,.products .small_card .image img{
+        /* width: 100%; */
+        margin-left: 10px;
+        margin-right: auto;
+        justify-content:baseline;
+        /* display: block; */
+        /* width: 50px;  */
+        /* flex-direction:column; */
+        /* display:inline; */
+        /* align-items:inherit; */
+        /* justify-content: inline; */
+       
+    }
+
+     .about .about_text{
+        text-align: center;
+        display: none;
+    }
+    .about .about_main .about_image .image_contaner img{
+        width:400px;
+        height: 350px;
+        /* margin: 20px; */
+    }
+    .about .about_btn{
+        top:120px;
+    }
+    .about .about_main .about_small_image img{
+        width: 100px;
+        height: 100px;
+        top: 100px;
+    }
+    
+    /* review */
+    
+    .review h1{
+        font-size: 40px;
+    }
+    .review .review_box .review_card{
+        width: 200px;
+        /* height: 150px; */
+
+    }
+    /* start OURSERVICES */
+    /* end OURSERVICES */
+    
+    /* login start */
+    
+    .login_form .left img{
+        margin-left: auto ;
+        margin-right: auto ;
+        width:300px;
+    }
+    
+    /* login end */
+
+    /* footer start  */
+    
+    footer .footer_main .tag {
+        font-size:10px;
+    }
+    footer .footer_main .tag h1{
+        font-size:17px;
+        text-align: center;
+    }
+    /* footer end  */
+
+}
+
+/* 
+
+@media (min-width:900px)and(max-width:1150px){
+    section p ,section h1{
+        width: 30%;
+    } 
+    section .main .main_content .main_image img{
+        width:150px;
+    }
+    section .main  .main_image img{
+        width: 200px;
+    }
+
+}
+@media (max-width:900px){
+    section , section .main .main_content .main_image img{
+        width: 70%;
+    }
+} */
+/* @media (max-width:700px){
+    section{
+        flex-direction: column;
+        justify-content: center;
+    }
+    section , section .main .main_content .main_image img{
+        width: 50%;
+    }
+} */
+
+
+
+/* section .main .button{
+    position: absolute;
+    left: 10%;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: linear-gradient(to right,#00adb5 , #6c14d0);
+    top:500px;
+}
+
+section .main .button a{
+    color: white;
+    text-decoration: none;
+}
+
+section .main .button i{
+    color: white;
+    margin-left: 5px;
+    transition: 0.3s;
+}
+
+section .main .button:hover i{
+    transform: translateX(6px);
+} */
